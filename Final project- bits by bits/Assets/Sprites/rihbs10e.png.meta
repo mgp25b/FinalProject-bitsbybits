@@ -1,0 +1,847 @@
+fileFormatVersion: 2
+guid: a21b14b79d5dbbd44a3f36ac6eaf75bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5963164833429106229
+    second: rihbs10e_0
+  - first:
+      213: 7285021585102868418
+    second: rihbs10e_1
+  - first:
+      213: 3111905631371026684
+    second: rihbs10e_2
+  - first:
+      213: 8139907063147857750
+    second: rihbs10e_3
+  - first:
+      213: 5645733288467515532
+    second: rihbs10e_4
+  - first:
+      213: -6425520902817310231
+    second: rihbs10e_5
+  - first:
+      213: -5581248029767127167
+    second: rihbs10e_6
+  - first:
+      213: 2623164003132343763
+    second: rihbs10e_7
+  - first:
+      213: -770429211533871512
+    second: rihbs10e_8
+  - first:
+      213: -6753115978101504276
+    second: rihbs10e_9
+  - first:
+      213: -6898147632619475413
+    second: rihbs10e_10
+  - first:
+      213: 4651637934477969711
+    second: rihbs10e_11
+  - first:
+      213: -3828613858550463181
+    second: rihbs10e_12
+  - first:
+      213: -3056370300762685445
+    second: rihbs10e_13
+  - first:
+      213: 3308313265378573299
+    second: rihbs10e_14
+  - first:
+      213: -4314738973892686933
+    second: rihbs10e_15
+  - first:
+      213: 2615569927686560344
+    second: rihbs10e_16
+  - first:
+      213: 3811835602549808208
+    second: rihbs10e_17
+  - first:
+      213: -3520071961321373805
+    second: rihbs10e_18
+  - first:
+      213: -5160217972107384097
+    second: rihbs10e_19
+  - first:
+      213: 8372298890361746071
+    second: rihbs10e_20
+  - first:
+      213: -6615097185844955212
+    second: rihbs10e_21
+  - first:
+      213: -5754480817415506341
+    second: rihbs10e_22
+  - first:
+      213: 3466421044578280996
+    second: rihbs10e_23
+  - first:
+      213: 8161742661721657168
+    second: rihbs10e_24
+  - first:
+      213: -8017704509514661975
+    second: rihbs10e_25
+  - first:
+      213: 7590481999006847659
+    second: rihbs10e_26
+  - first:
+      213: -8622281587705186137
+    second: rihbs10e_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rihbs10e_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2304
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc15b5e9d259e3da0800000000000000
+      internalID: -5963164833429106229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_1
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 2304
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf0c11b888991560800000000000000
+      internalID: 7285021585102868418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_2
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 2304
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf068642fa5bf2b20800000000000000
+      internalID: 3111905631371026684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_3
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 2304
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6570f9bc852c6f070800000000000000
+      internalID: 8139907063147857750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8844b3738ca95e40800000000000000
+      internalID: 5645733288467515532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_5
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1920
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e91ab268c6f3d6a0800000000000000
+      internalID: -6425520902817310231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_6
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1920
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fa166dc7c6b82b0800000000000000
+      internalID: -5581248029767127167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_7
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1920
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d58b4243c9576420800000000000000
+      internalID: 2623164003132343763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86670f9c6b2ee45f0800000000000000
+      internalID: -770429211533871512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_9
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1536
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6ce362ccc1842a0800000000000000
+      internalID: -6753115978101504276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_10
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1536
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ea38da64bd440a0800000000000000
+      internalID: -6898147632619475413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_11
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1536
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f298a445e00fd8040800000000000000
+      internalID: 4651637934477969711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33546f20bf70edac0800000000000000
+      internalID: -3828613858550463181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_13
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1152
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff7cf0a7679595d0800000000000000
+      internalID: -3056370300762685445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_14
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1152
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb3a9cf26d79ed20800000000000000
+      internalID: 3308313265378573299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_15
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1152
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babc79283c7fe14c0800000000000000
+      internalID: -4314738973892686933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a93f8cdfe5c4420800000000000000
+      internalID: 2615569927686560344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_17
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 768
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c1b28d84c56e430800000000000000
+      internalID: 3811835602549808208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_18
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 768
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f70a98331362fc0800000000000000
+      internalID: -3520071961321373805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_19
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 768
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdae3f828193368b0800000000000000
+      internalID: -5160217972107384097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792b8618b71603470800000000000000
+      internalID: 8372298890361746071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_21
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 384
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7760368247234a0800000000000000
+      internalID: -6615097185844955212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_22
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 384
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5636236f2af320b0800000000000000
+      internalID: -5754480817415506341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_23
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 384
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426e60cf2933b1030800000000000000
+      internalID: 3466421044578280996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f021445b5544170800000000000000
+      internalID: 8161742661721657168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_25
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afb45c6a346bb090800000000000000
+      internalID: -8017704509514661975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_26
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2dcc8792fc65960800000000000000
+      internalID: 7590481999006847659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rihbs10e_27
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 0
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8f07b2490875880800000000000000
+      internalID: -8622281587705186137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 21f559a0895be314190bc0dacfd6ee74
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":7.0},"gridSpriteSize":{"x":368.0,"y":384.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      rihbs10e_0: -5963164833429106229
+      rihbs10e_1: 7285021585102868418
+      rihbs10e_10: -6898147632619475413
+      rihbs10e_11: 4651637934477969711
+      rihbs10e_12: -3828613858550463181
+      rihbs10e_13: -3056370300762685445
+      rihbs10e_14: 3308313265378573299
+      rihbs10e_15: -4314738973892686933
+      rihbs10e_16: 2615569927686560344
+      rihbs10e_17: 3811835602549808208
+      rihbs10e_18: -3520071961321373805
+      rihbs10e_19: -5160217972107384097
+      rihbs10e_2: 3111905631371026684
+      rihbs10e_20: 8372298890361746071
+      rihbs10e_21: -6615097185844955212
+      rihbs10e_22: -5754480817415506341
+      rihbs10e_23: 3466421044578280996
+      rihbs10e_24: 8161742661721657168
+      rihbs10e_25: -8017704509514661975
+      rihbs10e_26: 7590481999006847659
+      rihbs10e_27: -8622281587705186137
+      rihbs10e_3: 8139907063147857750
+      rihbs10e_4: 5645733288467515532
+      rihbs10e_5: -6425520902817310231
+      rihbs10e_6: -5581248029767127167
+      rihbs10e_7: 2623164003132343763
+      rihbs10e_8: -770429211533871512
+      rihbs10e_9: -6753115978101504276
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
