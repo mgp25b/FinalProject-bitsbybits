@@ -2418,6 +2418,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &674485465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 674485466}
+  m_Layer: 0
+  m_Name: Powerups
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &674485466
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674485465}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.65768, y: -1.3826, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1448714631}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &695027311
 GameObject:
   m_ObjectHideFlags: 0
@@ -3472,7 +3504,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -3519,6 +3551,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1308413551}
   m_CullTransparentMesh: 1
+--- !u!1001 &1448714630
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 674485466}
+    m_Modifications:
+    - target: {fileID: 1912508368531194056, guid: 735f3e3bf1a6af54b9cd9d6dde9b65e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.4340162
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912508368531194056, guid: 735f3e3bf1a6af54b9cd9d6dde9b65e4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.8204144
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912508368531194056, guid: 735f3e3bf1a6af54b9cd9d6dde9b65e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912508368531194056, guid: 735f3e3bf1a6af54b9cd9d6dde9b65e4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912508368531194056, guid: 735f3e3bf1a6af54b9cd9d6dde9b65e4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912508368531194056, guid: 735f3e3bf1a6af54b9cd9d6dde9b65e4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912508368531194056, guid: 735f3e3bf1a6af54b9cd9d6dde9b65e4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912508368531194056, guid: 735f3e3bf1a6af54b9cd9d6dde9b65e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912508368531194056, guid: 735f3e3bf1a6af54b9cd9d6dde9b65e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912508368531194056, guid: 735f3e3bf1a6af54b9cd9d6dde9b65e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300481470578775545, guid: 735f3e3bf1a6af54b9cd9d6dde9b65e4, type: 3}
+      propertyPath: m_Name
+      value: SparklePowerup
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 735f3e3bf1a6af54b9cd9d6dde9b65e4, type: 3}
+--- !u!4 &1448714631 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1912508368531194056, guid: 735f3e3bf1a6af54b9cd9d6dde9b65e4, type: 3}
+  m_PrefabInstance: {fileID: 1448714630}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1667546366
 GameObject:
   m_ObjectHideFlags: 0
@@ -4192,3 +4286,4 @@ SceneRoots:
   - {fileID: 596247779}
   - {fileID: 1667546370}
   - {fileID: 371722483}
+  - {fileID: 674485466}
