@@ -3914,6 +3914,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 596247779}
     m_Modifications:
+    - target: {fileID: 305170114643348657, guid: 35f1a0819765d1a428e4f256bb5b5c51, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4313761217024137062, guid: 35f1a0819765d1a428e4f256bb5b5c51, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.3955307
@@ -3958,6 +3962,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HairdryerObstacle
       objectReference: {fileID: 0}
+    - target: {fileID: 4374841422293774102, guid: 35f1a0819765d1a428e4f256bb5b5c51, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3975,13 +3983,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: HairbrushObstacle
       objectReference: {fileID: 0}
+    - target: {fileID: 4652718834492153799, guid: 876f94caa7dbefa40b624e3dd0fd0ce1, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4676190245197542975, guid: 876f94caa7dbefa40b624e3dd0fd0ce1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6578266896399845252, guid: 876f94caa7dbefa40b624e3dd0fd0ce1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.2549696
+      value: -12.48
       objectReference: {fileID: 0}
     - target: {fileID: 6578266896399845252, guid: 876f94caa7dbefa40b624e3dd0fd0ce1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.09132004
+      value: 1.91
       objectReference: {fileID: 0}
     - target: {fileID: 6578266896399845252, guid: 876f94caa7dbefa40b624e3dd0fd0ce1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4072,6 +4088,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LipstickObstacle
       objectReference: {fileID: 0}
+    - target: {fileID: 5035274882114349372, guid: 1698952f080298c4da6f07f3dc06ed05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4088,9 +4108,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1494504536791948486, guid: 7fdc3a55bf4917c40b84a1a319cb377b, type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004699191221510415, guid: 7fdc3a55bf4917c40b84a1a319cb377b, type: 3}
+      propertyPath: spinDuration
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004699191221510415, guid: 7fdc3a55bf4917c40b84a1a319cb377b, type: 3}
+      propertyPath: pauseDuration
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004699191221510415, guid: 7fdc3a55bf4917c40b84a1a319cb377b, type: 3}
+      propertyPath: verticalSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 5544846976505561723, guid: 7fdc3a55bf4917c40b84a1a319cb377b, type: 3}
       propertyPath: m_Name
       value: RaquelPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544846976505561723, guid: 7fdc3a55bf4917c40b84a1a319cb377b, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 5709530798157381520, guid: 7fdc3a55bf4917c40b84a1a319cb377b, type: 3}
       propertyPath: m_LocalScale.x
