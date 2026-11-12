@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/MalibuStartMenu.unity
+    guid: daef4e975d98d47c39e491cc680bd885
+  - enabled: 1
+    path: Assets/GameScene.unity
+    guid: 3c0a2b716d68f4445a1954f50d3f64a1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
