@@ -8,9 +8,15 @@ public class MainMovement : MonoBehaviour
     public float verticalSpeed = 10f;
 
     [Header("Spin Settings")]
-    [SerializeField] private float spinDuration = 0.4f; // Time in seconds to complete the 360 spin
-    [SerializeField] private float pauseDuration = 1.0f; // Time in seconds to pause after the spin
+    [SerializeField] private float spinDuration = 0.4f;
+    [SerializeField] private float pauseDuration = 1.0f;
+
+    [Header("Speed Boost Settings")]
+    [SerializeField] private float speedMultiplier = 1.8f; // Multiplies normal speed by 1.8
+    [SerializeField] private float boostDuration = 3.0f;   // Boost lasts 3 seconds
+
     private bool isSpinning = false;
+    private float currentSpeedMultiplier = 1f;
     private Rigidbody2D rb;
 
     private void Start()
@@ -20,13 +26,11 @@ public class MainMovement : MonoBehaviour
 
     void Update()
     {
-        // Prevent player movement input while spinning or paused
         if (isSpinning) return;
 
         float horizontalInput = 0f;
         float verticalInput = 0f;
 
-        // Reading movement inputs (New Input System)
         if (Keyboard.current != null)
         {
             if (Keyboard.current.rightArrowKey.isPressed || Keyboard.current.dKey.isPressed)
@@ -41,13 +45,16 @@ public class MainMovement : MonoBehaviour
         }
         else
         {
-            // Fallback for classic Input
             horizontalInput = Input.GetAxisRaw("Horizontal");
             verticalInput = Input.GetAxisRaw("Vertical");
         }
 
-        // Apply 2D movement
-        Vector3 movement = new Vector3(horizontalInput * moveSpeed, verticalInput * verticalSpeed, 0f);
+        // Apply movement multiplied by the current boost multiplier
+        Vector3 movement = new Vector3(
+            horizontalInput * moveSpeed * currentSpeedMultiplier,
+            verticalInput * verticalSpeed * currentSpeedMultiplier,
+            0f
+        );
         transform.Translate(movement * Time.deltaTime, Space.World);
     }
 
@@ -56,6 +63,11 @@ public class MainMovement : MonoBehaviour
         if (other.CompareTag("Obstacle") && !isSpinning)
         {
             StartCoroutine(SpinAndPause());
+        }
+        else if (other.CompareTag("Star"))
+        {
+            StartCoroutine(SpeedBoost());
+            Destroy(other.gameObject); // Removes the star from the scene
         }
     }
 
@@ -67,19 +79,24 @@ public class MainMovement : MonoBehaviour
         }
     }
 
+    private IEnumerator SpeedBoost()
+    {
+        currentSpeedMultiplier = speedMultiplier;
+        yield return new WaitForSeconds(boostDuration);
+        currentSpeedMultiplier = 1f; // Returns to normal speed
+    }
+
     private IEnumerator SpinAndPause()
     {
         isSpinning = true;
 
         float elapsedTime = 0f;
 
-        // 1. Smooth 360-degree rotation loop
         while (elapsedTime < spinDuration)
         {
             elapsedTime += Time.deltaTime;
             float percentage = elapsedTime / spinDuration;
 
-            // Smooth interpolation (Mathf.SmoothStep provides a sleek ease-in/ease-out spin)
             float smoothPercentage = Mathf.SmoothStep(0f, 1f, percentage);
             float currentAngle = Mathf.Lerp(0f, -360f, smoothPercentage);
 
@@ -87,10 +104,8 @@ public class MainMovement : MonoBehaviour
             yield return null;
         }
 
-        // Ensure rotation is perfectly back to zero
         transform.rotation = Quaternion.Euler(0f, 0f, 0f);
 
-        // 2. Pause character for 1 second
         yield return new WaitForSeconds(pauseDuration);
 
         isSpinning = false;

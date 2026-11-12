@@ -3561,11 +3561,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1912508368531194056, guid: 735f3e3bf1a6af54b9cd9d6dde9b65e4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.4340162
+      value: -6.14
       objectReference: {fileID: 0}
     - target: {fileID: 1912508368531194056, guid: 735f3e3bf1a6af54b9cd9d6dde9b65e4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.8204144
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 1912508368531194056, guid: 735f3e3bf1a6af54b9cd9d6dde9b65e4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3602,6 +3602,10 @@ PrefabInstance:
     - target: {fileID: 3300481470578775545, guid: 735f3e3bf1a6af54b9cd9d6dde9b65e4, type: 3}
       propertyPath: m_Name
       value: SparklePowerup
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300481470578775545, guid: 735f3e3bf1a6af54b9cd9d6dde9b65e4, type: 3}
+      propertyPath: m_TagString
+      value: Star
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4203,8 +4207,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4004699191221510415, guid: 7fdc3a55bf4917c40b84a1a319cb377b, type: 3}
+      propertyPath: moveSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004699191221510415, guid: 7fdc3a55bf4917c40b84a1a319cb377b, type: 3}
       propertyPath: spinDuration
       value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004699191221510415, guid: 7fdc3a55bf4917c40b84a1a319cb377b, type: 3}
+      propertyPath: boostDuration
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4004699191221510415, guid: 7fdc3a55bf4917c40b84a1a319cb377b, type: 3}
       propertyPath: pauseDuration
