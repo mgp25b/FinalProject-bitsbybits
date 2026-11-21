@@ -12,12 +12,28 @@ public class MainMovement : MonoBehaviour
     [SerializeField] private float pauseDuration = 1.0f;
 
     [Header("Speed Boost Settings")]
-    [SerializeField] private float speedMultiplier = 1.8f; // Multiplies normal speed by 1.8
-    [SerializeField] private float boostDuration = 3.0f;   // Boost lasts 3 seconds
+    [SerializeField] private float speedMultiplier = 1.8f;
+    [SerializeField] private float boostDuration = 3.0f;
 
     private bool isSpinning = false;
     private float currentSpeedMultiplier = 1f;
     private Rigidbody2D rb;
+
+    // Audio script reads these values
+    public float CurrentMovementSpeed { get; private set; }
+
+    public float MaximumMovementSpeed
+    {
+        get
+        {
+            return Mathf.Sqrt(
+                moveSpeed * moveSpeed +
+                verticalSpeed * verticalSpeed
+            );
+        }
+    }
+
+    public float CurrentSpeedMultiplier => currentSpeedMultiplier;
 
     private void Start()
     {
@@ -26,7 +42,11 @@ public class MainMovement : MonoBehaviour
 
     void Update()
     {
-        if (isSpinning) return;
+        if (isSpinning)
+        {
+            CurrentMovementSpeed = 0f;
+            return;
+        }
 
         float horizontalInput = 0f;
         float verticalInput = 0f;
@@ -49,13 +69,16 @@ public class MainMovement : MonoBehaviour
             verticalInput = Input.GetAxisRaw("Vertical");
         }
 
-        // Apply movement multiplied by the current boost multiplier
         Vector3 movement = new Vector3(
             horizontalInput * moveSpeed * currentSpeedMultiplier,
             verticalInput * verticalSpeed * currentSpeedMultiplier,
             0f
         );
+
         transform.Translate(movement * Time.deltaTime, Space.World);
+
+        // Send current movement speed to the engine audio script
+        CurrentMovementSpeed = movement.magnitude;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -67,7 +90,7 @@ public class MainMovement : MonoBehaviour
         else if (other.CompareTag("Star"))
         {
             StartCoroutine(SpeedBoost());
-            Destroy(other.gameObject); // Removes the star from the scene
+            Destroy(other.gameObject);
         }
     }
 
@@ -82,8 +105,10 @@ public class MainMovement : MonoBehaviour
     private IEnumerator SpeedBoost()
     {
         currentSpeedMultiplier = speedMultiplier;
+
         yield return new WaitForSeconds(boostDuration);
-        currentSpeedMultiplier = 1f; // Returns to normal speed
+
+        currentSpeedMultiplier = 1f;
     }
 
     private IEnumerator SpinAndPause()
@@ -95,12 +120,14 @@ public class MainMovement : MonoBehaviour
         while (elapsedTime < spinDuration)
         {
             elapsedTime += Time.deltaTime;
-            float percentage = elapsedTime / spinDuration;
 
+            float percentage = elapsedTime / spinDuration;
             float smoothPercentage = Mathf.SmoothStep(0f, 1f, percentage);
+
             float currentAngle = Mathf.Lerp(0f, -360f, smoothPercentage);
 
             transform.rotation = Quaternion.Euler(0f, 0f, currentAngle);
+
             yield return null;
         }
 
