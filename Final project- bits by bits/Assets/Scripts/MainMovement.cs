@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using System.Collections;
 using UnityEngine.InputSystem;
@@ -19,7 +20,7 @@ public class MainMovement : MonoBehaviour
     private float currentSpeedMultiplier = 1f;
     private Rigidbody2D rb;
 
-    // Audio script reads these values
+    // ENGINE AUDIO DATA
     public float CurrentMovementSpeed { get; private set; }
 
     public float MaximumMovementSpeed
@@ -77,7 +78,7 @@ public class MainMovement : MonoBehaviour
 
         transform.Translate(movement * Time.deltaTime, Space.World);
 
-        // Send current movement speed to the engine audio script
+        // ENGINE AUDIO: report movement speed
         CurrentMovementSpeed = movement.magnitude;
     }
 
@@ -138,3 +139,4 @@ public class MainMovement : MonoBehaviour
         isSpinning = false;
     }
 }
+
